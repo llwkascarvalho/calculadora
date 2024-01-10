@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 
 def home(request):
-    pass
+    return render(request,'home.html')
 
 
 def calculate(request):
